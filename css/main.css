@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div{
+    margin-bottom: 1rem
+
+}
+
+header nav ul {
+    display: flex;
+    column-gap: 15px;
+}
+
+header nav ul li{
+    list-style: none;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+main{
+    background-color:rgb(230, 226, 191);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+    grid-template-areas:
+    "h1 tienda"
+    "parrafo parrafo" ;
+
+   
+
+    
+    justify-content: center;
+    justify-items:flex-end;
+    align-items: center;
+
+}
+
+.tienda{
+    grid-area: tienda;
+}
+
+.parrafo{
+    font-size:large;
+    grid-area: parrafo;
+}
+
+.vision{
+    margin: 60px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.ubicacion{
+    text-align: center;
+}
+
+footer{
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+@media screen and (min-width:1024px){
+    header{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
