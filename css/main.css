@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: lightgray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(201, 82, 82);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header{
@@ -64,6 +64,7 @@ main{
 }
 
 .vision{
+    background-color: blueviolet;
     margin: 60px;
     justify-content: center;
     justify-items: center;
